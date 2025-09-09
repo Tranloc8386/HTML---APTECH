@@ -1,0 +1,29 @@
+.màu {
+
+    color: blue;
+    width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 10px;
+   
+}
+.đỏ
+{
+    background-color: red;
+}
+.vàng
+{
+    background-color: yellow;
+}
+.xanh
+{
+    background-color: blue;
+}
+div{
+        width: 100px; 
+        padding: 50px;
+        margin: 100px;
+        background-color: green;
+        border: 2px solid black;
+}
+        
