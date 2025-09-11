@@ -1,0 +1,44 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 12px 32px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.logo img {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+header ul li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+
+.login-btn {
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+}
