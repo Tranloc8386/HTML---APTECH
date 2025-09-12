@@ -10,20 +10,27 @@
 .đỏ
 {
     background-color: red;
+    border: 0cm solid rgb(243, 235, 235);
+    display: block;
 }
 .vàng
 {
     background-color: yellow;
+    border: 0cm solid rgb(36, 9, 9);
+    display: inline
 }
 .xanh
 {
     background-color: blue;
+    border: 0cm solid rgb(173, 128, 128);
+    display: inline-block
 }
 div{
-        width: 100px; 
+        width: 700px; 
         padding: 50px;
-        margin: 100px;
+        margin: 10px;
         background-color: green;
         border: 2px solid black;
+        height: 50vh;
 }
         

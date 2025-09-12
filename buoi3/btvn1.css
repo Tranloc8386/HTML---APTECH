@@ -1,0 +1,85 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c9c5c5;
+  padding: 12px 32px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.logo img {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+header ul li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+
+.login {
+  padding: 8px 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 12px 0;
+  position:defixed;
+  width: 100%;
+  bottom: 5;
+  border-top: 1px solid #c53131;
+}
+.ben_trai {
+  display: flex;
+  gap: 20px;
+  width: 10%;
+  background-color: #f9f9f9;
+  padding: 16px;
+  box-sizing: border-box;
+  border-right: 1px solid #ddd;
+  justify-content: flex-start;
+}
+.ben_phai {
+  flex:justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+  margin: 20px;
+  background-color: #ca1c1c;
+  color: white;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+
+
+
+
