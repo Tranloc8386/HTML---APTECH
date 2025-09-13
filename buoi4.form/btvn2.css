@@ -1,0 +1,37 @@
+.form{
+    background-color: #1dde60;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 10px;
+    color: rgb(30, 32, 33);
+    font: size 30px;;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+label{
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+input, select {
+  padding: 8px;
+  border: 1px solid #811717;
+  border-radius: 6px;
+  width: 100%;
+}
+.radio-group, .checkbox-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: rgb(38, 20, 13);
+}
+.submit{
+    background-color: coral;
+}
+
+

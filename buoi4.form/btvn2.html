@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>btvn2</title>
+    <link rel="stylesheet" href="./btvn2.css">
+</head>
+
+<body>
+    <form class="form">
+        <h1 style="color: rgb(252, 252, 252); background-color: blueviolet; padding: 30px;">Đăng kí tham gia sự kiện
+        </h1>
+
+        <label for name="name"> Họ tên</label>
+        <input type="text" id="name" name="name" required placeholder="Nhập họ tên">
+        <br>
+        <label for name="email"> Email</label>
+        <input type="email" id="email" name="email" required placeholder="Nhập email">
+        <br>
+        <label for name="Giới_tính">Giới tính</label>
+        <div class="radio-group">
+
+            <input type="radio" id="nam" name="gender" value="male"><label for="male">Nam </label>
+            <input type="radio" id="nu" name="gender" value="female"><label for="female">Nu</label>
+
+        </div>
+
+        <br>
+        <label> Sở thích</label>
+        <div class="checkbox - group">
+            <input type="checkbox" name="so thich" value="reading"> Fifai
+            <input type="checkbox" name="so thich" value="music"> Đột kích
+            <input type="checkbox" name="so thich" value="football"> Bóng đá
+
+        </div>
+
+
+        <br>
+        <label for="country">Quốc gia</label>
+        <select id="country" name="country" required>
+            <option value="">---Chọn Quốc Gia---</option>
+            <option value="vn"> Viet Nam</option>
+            <option value="meo">US</option>
+            <option value=" cpc">Campuchia</option>
+
+        </select>
+
+
+        <br>
+        <div class="buttons">
+            <button type="submit"> Đăng kí</button>
+            <input type=" reset" value="Nhap lai">
+        </div>
+
+
+
+    </form>
+</body>
+
+</html>

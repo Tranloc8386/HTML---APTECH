@@ -1,0 +1,36 @@
+
+<!-- Tạo form để người dùng gửi tin nhắn cho bạn:
+Trường: Họ tên, Email, Số điện thoại, Nội dung tin nhắn.
+Trường số điện thoại kiểm tra bằng type="tel".
+Nút Gửi. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> bài tập về nhà 1</title>
+    <link rel="stylesheet" href="./btvn1.css">
+</head>
+<body>
+    <form class="form">
+        <h1 style="border: red; background-color: #b4aeae; padding: 10px; color: rgb(253, 250, 249);">Gửi tin nhắn cho tôi</h1>
+        
+        <label for="name">Họ tên:</label>
+        <input type="text" id="name" name="name" required placeholder="Nhap ho ten">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Nhap email">
+
+        <label for="phone">Số điện thoại:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="Nhap so dien thoai">
+
+        <label for="messga"> Nhập tin nhắn: </label>
+        <textarea type="text" id="messga" name="messga" required placeholder="Nhập tin nhắn">
+
+        <button type="button">Gui</button>
+        <input type="reset" value="Nhap lai">
+
+    </form>
+</body>
+</html>
