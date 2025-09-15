@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>btvn2</title>
+    <link rel="stylesheet" href="./btvn2.css">
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên sản phẩm</th>
+                <th>Ảnh sản phẩm</th>
+                <th>Giá</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Rolex</td>
+                <td><img class="product-image"
+                        src="https://tse4.mm.bing.net/th/id/OIP.4X7u71HNA0PqIY2j9JZIewHaEK?pid=Api&P=0&h=220"
+                        alt="Rolex"></td>
+                <td>1.029.323.322vnd</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Patek Philippe</td>
+                <td><img class="product-image"
+                        src="https://tse1.mm.bing.net/th/id/OIP.x3MYeg2D06x_w-CC7bUWxAHaE8?pid=Api&P=0&h=220"
+                        alt="Patek Philippe"></td>
+                <td>1.039.323.334vnd</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Casino</td>
+                <td><img class="product-image"
+                        src="https://tse4.mm.bing.net/th/id/OIP.vcW8Ou3O4DYoDCJm0FhMDQHaE7?pid=Api&P=0&h=220"
+                        alt="Casino"></td>
+                <td>323.322vnd</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <form>
+            <h1>Phiếu đăng kí mua hàng</h1>
+
+            <label for="Name">Ten san pham</label>
+            <input type="text" id="name" name="name" required placeholder="Nhap ten khach hang">
+
+            <label for="email"> email</label>
+            <input type="email" id="email" name="email" required placeholder="Nhap email">
+
+
+            <label for="country"> Quoc gia</label>
+            <select id="country" name="Quoc gia">
+                <option value="">---Chon quoc gia---</option>
+                <option value="vn">Viet Nam</option>
+                <option value="tq">China</option>
+                <option value="meo">US</option>
+            </select>
+
+            <label for="gioitinh"> Gioi tinh </label>
+            <input type="radio" value="nam" id="men" name="gioitinh"><label for="men">Nam</label>
+            <input type="radio" value="nu" id="women" name="gioitinh"> <label for="women">Nu</label>
+
+            <label for="Mualoai">Mua san pham nao</label>
+            <input type="checkbox" id="Rolex" name="Rolex" value="Rolex"> Rolex
+            <input type="checkbox" id="Patek Philippe" name="Patek Philippe" value="Patek Philippe"> Patek Philippe
+            <input type="checkbox" id="Casino" name="casino" value="casino"> Casino
+
+            <button type="submit">Mua ngay</button>
+
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>

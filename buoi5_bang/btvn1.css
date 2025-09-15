@@ -1,0 +1,57 @@
+table{
+    
+    justify-content: space-between;
+    gap: 10px;
+    background-color: #f2f1f1;
+    padding: 16px;
+    width: 100%;
+   border-collapse: collapse;
+    text-align: center;
+    margin: 0%;
+   
+
+}
+tbody{
+    color: rgb(20, 33, 33);
+    
+    
+}
+tr :hover{
+    background-color:rgb(117, 91, 95) ;
+    border: #912020;
+}
+tr:nth-child(even) {
+  background: #f0b6b6;
+}
+thead{
+    background-color: brown;
+    color: #f2f1f1;
+}
+td,th{
+    border: greenyellow;
+    padding: 20px;
+
+}
+@media (max-width: 768px)
+{
+ body
+{
+    background-color: antiquewhite;
+    
+}
+}
+@media (max-width: 768px)
+{
+    td,th,tr{
+        width: 100%;
+        background-color: pink;
+
+    }
+    table {
+        min-width: 600px; /* đảm bảo bảng không bị co quá nhỏ */
+    }
+}
+.xe{
+    width: 300px;
+    height: 200px;
+}

@@ -1,0 +1,57 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+th, td {
+    border: 1px solid #fa6f6f;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background-color: #9fdef8;
+}
+tr:hover {
+    background-color: #abe472;
+}
+.product-image {
+    width: 100px;
+    height: auto;
+}
+thead th{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    
+    align-items: center;
+    margin: 20px;
+}
+form {
+    display: flex; 
+    flex-direction: column; 
+    margin: 30px;
+    padding: 30px;
+    background-color: #abe472;
+}
+form input{
+    padding: 10px;
+    margin: 10px;
+}
+form button{
+    height: 50px;
+    width: 100px;
+    justify-content: center;
+    margin: 20px;
+}
+form select, :checkbok{
+    margin: 20px;
+}

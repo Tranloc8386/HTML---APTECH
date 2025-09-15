@@ -1,0 +1,30 @@
+body{
+  background-color: beige;
+  padding:16px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+th, td, tr :hover{
+
+border: rgb(28, 27, 26);
+}
+thead{
+    background-color: aqua;
+    border: rgb(158, 108, 34);
+}
+@media (max-width: 769px)
+{
+  body{
+    background-color: aqua;
+  }
+}
+@media (min-width: 500px)
+{
+  table{
+    background-color: blueviolet;
+    font-size: 20px;
+  }
+}
