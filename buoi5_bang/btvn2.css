@@ -55,3 +55,7 @@ form button{
 form select, :checkbok{
     margin: 20px;
 }
+.container {
+    width: 100%;
+    overflow: scroll
+}
