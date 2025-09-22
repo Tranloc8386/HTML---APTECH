@@ -19,7 +19,7 @@ function getGrade() {
     } else if (nhapdiem >= 70 && nhapdiem <= 84) {
         console.log("B");
     } else if (nhapdiem >= 50 && nhapdiem <= 69) {
-        console.log("C");
+        console.log("C")
     } else if (nhapdiem >= 0 && nhapdiem < 50) {
         console.log("D");
     } else {
