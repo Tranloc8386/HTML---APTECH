@@ -5,11 +5,11 @@
 // let kiemtra = (tong != 42);
 
 
-// if (kiemtra) {
-//     console.log('WWin');
-// } else {
-//     console.log('sai');
-// }
+if (kiemtra) {
+    console.log('WWin');
+} else {
+    console.log('sai');
+
 
 
 // let array = [1, 23, 5, 5454, 4];
