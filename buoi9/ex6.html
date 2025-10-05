@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ex6.css">
+</head>
+<body>
+    <h2>Quản lý Nhân viên</h2>
+  
+  <form id="employeeForm">
+    <label>Họ tên:</label>
+    <input type="text" id="name" maxlength="255" required> <br>
+
+    <label>Tuổi:</label>
+    <input type="number" id="age" min="18" max="65" required> <br>
+
+    <label>Giới tính:</label>
+    <label><input type="radio" name="gender" value="Nam" checked> Nam</label>
+    <label><input type="radio" name="gender" value="Nữ"> Nữ</label> <br>
+
+    <label>Vị trí:</label>
+    <select id="position">
+      <option>Kế toán</option>
+      <option>Lập trình viên</option>
+      <option>Quản lý</option>
+    </select> <br>
+
+    <label>Ghi chú:</label>
+    <textarea id="note" maxlength="300"></textarea> <br>
+
+    <button type="submit" id="submitBtn">Thêm nhân viên</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Mã NV</th>
+        <th>Họ tên</th>
+        <th>Tuổi</th>
+        <th>Giới tính</th>
+        <th>Vị trí</th>
+        <th>Ghi chú</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
+    <tbody id="employeeTable"></tbody>
+  </table>
+
+  <script src="script.js"></script>
+    <script src="./ex6.js"></script>
+</body>
+</html>

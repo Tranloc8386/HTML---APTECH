@@ -35,5 +35,6 @@
 // console.log(el.textContent);
 // const al= document.getElementsByClassName("atho");
 // console.log(al.textContent);
-document.getElementsByClassName("tran") = "hello"
-// document.getElementById("ff").innerHTML = `jhdksjdfhskf`
+// document.getElementsByClassName("tran") = "hello"
+
+console.log(document.getElementById("tran").innerHTML = `jhdksj`)
